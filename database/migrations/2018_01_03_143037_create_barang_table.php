@@ -31,7 +31,7 @@ class CreateBarangTable extends Migration
             $table->integer('stock_day');
             $table->integer('tg_capacity');
             $table->integer('boost_sales');
-            $table->decimal('price',8,2);
+            $table->float('price',8,2);
             $table->integer('max_order');
             $table->timestamps();
         });
